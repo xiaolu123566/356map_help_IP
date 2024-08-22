@@ -49,7 +49,7 @@
             const encryptedIP = base64EncodeWithDot(data.ip);
 
             // 重定向到目标网页，并附加加密的IP地址作为查询参数
-            const targetUrl = `https://dao3.fun/play/49d220144d24f97883e7?key="${encryptedIP}"`;
+            const targetUrl = `https://dao3.fun/play/49d220144d24f97883e7?key=${encryptedIP}`;
             window.location.href = targetUrl;
             console.log(encryptedIP)
         })
